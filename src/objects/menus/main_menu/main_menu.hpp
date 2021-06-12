@@ -1,15 +1,15 @@
 #ifdef _WIN32
 #include <windows.h>
-#include "../../platforms/WIN32/text_color/text_color_windows.hpp"
+#include "../../../platforms/WIN32/text_color/text_color_windows.hpp"
 #endif
 
 #ifdef linux
-#include "../../platforms/LINUX/text_color/text_color_linux.hpp"
+#include "../../../platforms/LINUX/text_color/text_color_linux.hpp"
 #endif
 
 #include <iostream>
 
-#include "../splash_screen/splash-screen.hpp"
+#include "../../splash_screen/splash-screen.hpp"
 using namespace std;
 void main_menu() {
     int options[] = {/*Start*/ 1, /*Settings*/ 2, /*Quit*/ 3};
